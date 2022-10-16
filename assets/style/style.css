@@ -1,0 +1,175 @@
+.cabecalho{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.logo_cabecalho{
+    width: 50px;
+}
+
+.lista_cabecalho{
+    display: flex;
+    gap: 10px;
+}
+
+.item_lista_cabecalho a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: grey;
+    transition: 0.5s;
+}
+
+.item_lista_cabecalho a:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.principal{
+    margin-top: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.titulo_home{
+    text-align: center;
+    margin: 2rem;
+}
+
+.imagem_shaman{
+    width: 150px;
+}
+
+.resumo_home{
+    padding: 8px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.paragrafo_home{
+    font-size: 0.6em;
+    margin-left: 20px;
+}
+
+
+.titulo_secao_reinos{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+}
+
+.flex_reinos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.reino_home{
+    background-color: grey;
+    border-radius: 10px;
+    overflow: hidden;
+    opacity: 30%;
+    transition: 0.5s;
+}
+
+.reino_home:hover{
+    opacity: 100%;
+    transition: 0.5s;
+}
+
+.imagem_reino_home{
+    height: 120px;
+    width: 120px;
+}
+
+.nome_reino_home{
+    color: black;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.titulo_secao_deuses{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+}
+
+.flex_deuses{
+    display: flex;
+    justify-content: space-around;
+}
+
+.deus_home{
+    background-color: grey;
+    border-radius: 10px;
+    overflow: hidden;
+    opacity: 30%;
+    transition: 0.5s;
+}
+
+.deus_home:hover{
+    opacity: 100%;
+    transition: 0.5s;
+}
+
+.imagem_deus_home{
+    height: 120px;
+    width: 120px;
+}
+
+.nome_deus_home{
+    color: black;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.principal_reino{
+    font-family: 'Oswald', sans-serif;
+}
+
+.titulo_reino{
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.conteudo_reino{
+    padding-bottom: 4em;
+    padding: 16px;
+    display: flex;
+}
+
+.imagem_reino{
+    margin-left: 4px;
+    width: 40%;
+    height: 200px;
+}
+
+.texto_reino p{
+    font-size: 0.6rem;
+}
+
+.imagem_divisao{
+    width: 200px;
+    margin-left: 34%;
+    margin-top: 3rem;
+}
+
+.rodape{
+    margin-top: 3rem;
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.texto_rodape{
+    text-align: center;
+    font-size: 0.3rem;
+    color: white;
+}
+
+.logo_rodape{
+    width: 50px;
+}
+
